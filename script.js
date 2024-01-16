@@ -44,7 +44,7 @@ gameBoard.addEventListener("click", (det) => {
     bubbleMaker();
     getNewHit();
   } else if (det.target.innerText == "Restart") {
-    timer = 10;
+    timer = 60;
     score = 0;
     scoreBtn.innerText = score;
     bubbleMaker();
