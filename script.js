@@ -1,6 +1,6 @@
 let gameBoard = document.querySelector("#main-bottom");
 let num;
-let timer = 10;
+let timer = 60;
 //this function make bubble and assign value
 const bubbleMaker = () => {
   let bubbles = "";
@@ -52,4 +52,3 @@ gameBoard.addEventListener("click", (det) => {
     timerFnc();
   }
 });
-
